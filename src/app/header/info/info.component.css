@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+.info button {
+    background-color: transparent !important;
+    border-color: transparent;
+    font-family: Arial;
+    font-size: 2.0833333333333335vw;
+    color: black;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 0;
+    text-align: left;
+    margin-right: 65px;
+}
+
+.info-modal {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial;
+    position: absolute;
+    top: 4.9vw;
+    right: 0px;
+    width: 100%;
+    height: 92vh;
+    z-index: 2;
+    display: flex;
+    justify-content: end;
+    align-items: normal;
+
+}
+
+.info-modal button {
+    position: absolute;
+    right: 5vw;
+    top: 5.42vh;
+    color: black;
+    font-family: "Gruppo", Arial;
+    font-size: 5.81vw;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.info-modal p {
+    position: absolute;
+    top: 250px;
+    right: 11vw;
+    text-align: end;
+    font-size: 18px;
+}
+
+.info-modal a {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    text-align: end;
+    text-decoration: none;
+    color: blue;
+}
+
+.info-modal a :visited {
+    color: blue;
+}
+
+@media (max-width: 1024px) {
+    .info button {
+        font-size: 32px;
+        margin: 0px 18px
+    }
+
+    .info-modal{
+        top: 75px;
+    }
+    .info-modal p {
+        font-size: 2vw;
+    }
+
+    .info-modal button {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .info button {
+        font-size: 24px;
+        margin-right: 10px
+    }
+    .info-modal {
+        top: 70px;
+    }
+    .info-modal button {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 430px) {
+    .info-modal {
+        top: 70px;
+        height: 91vh;
+    }
+
+    .info button {
+        left: 78vw;
+        font-size: 24px;
+        margin-right: 10px
+    }
+
+    .info-modal p {
+        font-size: 12px;
+    }
+
+    .info-modal button {
+        font-size: 15.81vw;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .info button {
+        font-size: 24px;
+    }
+
+    .info-modal {
+        top: 55px;
+    }
+    .info-modal button {
+        font-size: 10vw;
+    }
+    .info-modal p, .info-modal a {
+        font-size: 12px;
+        top: 200px;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .info button {
+        font-size: 8vw;
+    }
+}
